@@ -1,0 +1,15 @@
+%disposicion{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.encuadrado{
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    @extend %disposicion
+}

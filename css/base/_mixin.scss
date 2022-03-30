@@ -1,0 +1,21 @@
+
+@mixin colores($colors, $ancho, $borde){  
+    background-color: $colors;
+    width: $ancho;
+    padding: $borde;
+    
+}
+@mixin alineacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kapping{
+    @include alineacion()
+}
+.tradicional{
+    @include alineacion()
+}
+.semis{
+    @include alineacion()
+}
