@@ -1,0 +1,26 @@
+  SEO DOCUMENTO. NAILS WITH DO PROYECTO.
+
+En el archivo index.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "Uñas que destaquen con Nails With Do! "
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "salon, uñas, semipermanente, gel, relax, arte, diseño, calidad, spa, kapping, manicuria"
+Encabezado: para el encabezado del h1 utilicé el texto "nails with do"
+
+En el archivo productos.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "Los mejores productos, la mejor calidad!"
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "salon, uñas, semipermanente, gel, relax, arte, diseño, calidad, spa, kapping, manicuria, cherimoya, navi, pink mask, opi"
+Encabezado: para el encabezado del h1 utilicé el texto "nails with do"
+
+En el archivo servicios.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "Servicios perfectos, atencion perfecta"
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio:     <meta name="keywords" content="salon, uñas, semipermanente, gel, relax, arte, diseño, calidad, spa, kapping, manicuria, servicio, manicura, atencion">
+Encabezado: para el encabezado del h1 utilicé el texto "nails with do"
+
+En el archivo turnos.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "Consegui un turno para tu mejor version"
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "salon, uñas, semipermanente, gel, relax, arte, diseño, calidad, spa, kapping, manicuria, turnos, turno, manicura"
+Encabezado: para el encabezado del h1 utilicé el texto "nails with do"
+
+En el archivo contacto.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "Contactanos, de manera rapida!"
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "salon, uñas, semipermanente, gel, relax, arte, diseño, calidad, spa, kapping, manicuria, contacto, contactar, mensaje"
+Encabezado: para el encabezado del h1 utilicé el texto "nails with do"
