@@ -266,6 +266,18 @@ body {
   .QuienesSomos {
     margin-top: 10px;
   }
+  section.encuadrado {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  section div.obtturno {
+    width: 320px;
+  }
+  section div iframe {
+    width: 310px;
+    height: 400px;
+  }
 }
 
 .kapping {
@@ -653,5 +665,9 @@ button {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+.carousel__padding {
+  padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */
