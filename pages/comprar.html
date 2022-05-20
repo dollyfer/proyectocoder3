@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nails With Do- Turnos</title>
+    <title>Nails With Do- Comprar</title>
     <link rel="shortcut icon" href="../imagenes/NailswithDo.png">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,8 +17,8 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <meta name="keywords"
-        content="salon, uñas, semipermanente, gel, relax, arte, diseño, calidad, spa, kapping, manicuria, turnos, turno, manicura">
-    <meta name="description" content="Consegui un turno para tu mejor version">
+        content="salon, uñas, semipermanente, gel, relax, arte, diseño, calidad, spa, kapping, manicuria, cherimoya, navi, pink mask, opi">
+    <meta name="description" content="Los mejores productos, la mejor calidad!">
 </head>
 
 <body class="row1">
@@ -40,51 +40,46 @@
                             <a class="nav-link " href="../index.html">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./productos.html">PRODUCTOS</a>
+                            <a class="nav-link" href="../pages/productos.html">PRODUCTOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./servicios.html">SERVICIOS</a>
+                            <a class="nav-link" href="../pages/servicios.html">SERVICIOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./turnos.html">TURNOS</a>
+                            <a class="nav-link" href="../pages/turnos.html">TURNOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                            <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./comprar.html">COMPRAR</a>
+                            <a class="nav-link" href="../comprar.html">COMPRAR</a>
                         </li>
+                        <div class="botoncart" >
+                            <a href="carrito.html" id="boton_carrito" width="30px"><button type="button" title="Ver carrito" class="btn btn-secondary position-relative botonm">
+                                <img src="../imagenes/cart4.svg" alt="">
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                  0
+                                  <span class="visually-hidden">unread messages</span>
+                                </span>
+                              </button> </a>
+                        </div>
+                        <div class="botoncart margentrash">
+                            <a id="eliminar_carrito" width="30px"><button type="button" title= "Vaciar carrito" class="btn btn-secondary position-relative botonm">
+                                <img src="../imagenes/trash.svg" alt="">
+                              </button> </a>
+                        </div>
                     </ul>
                 </div>
             </div>
         </nav>
         <!--finaliza barra de navegacion-->
     </header>
-    <main>
-        <section class="encuadrado">
-            <div class="obtturno">
+    <main class="container pt-5">
+        <div id="productos" class="row">
 
-                <p>
-                <h2>Obtener un turno con instagram</h2>
-                Entrar al perfil de nuestra pagina nailswithdo_ y mandar un mensaje por mensajes directos.
-                </p>
-                <iframe src="https://www.instagram.com/p/CYuZF-elkzA/embed" frameborder="0" width="400px"
-                    height="500px"></iframe>
-                <p> Turno por whatsapp business:
-                    Agendar nuestro numero, que esta al pie de la pagina y luego mandarnos un mensaje por la plataforma.
-                </p>
-            </div>
-            <div class="infoimp">
-                <h3>INFORMACION IMPORTANTE</h3>
-                <p> Al pedir turno por cualquier medio, aclarar el servicio a realizar, y si es posible, una foto del
-                    diseño. Esto es para calcular el presupuesto y el tiempo que se va a necesitar para realizarlo. </p>
-                <p> El dia del servicio, el tiempo de espera de llegada es 15 minutos. Pasado ese tiempo el turno
-                    quedara automaticamente cancelado.</p>
-            </div>
-        </section>
-
+        </div>
     </main>
-    <!--footer-->
+    <!--inicia footer-->
     <footer class="container-fluid footercolor">
 
         <div class="row">
@@ -109,8 +104,11 @@
     </footer>
     <!--fin footer-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-        </script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <script src="../javascript/carrito.js"></script>
+    <script src="../javascript/productos.js"></script>
+    <script src="../javascript/main.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,19 @@
+const productos =[
+    {id: 1, insumos: "Ultrabond Cherimoya 15ml", precio: 800,  imag: "../imagenes/ultrabond cherimoya.jpg"},
+    { id: 2, insumos: "Lima Cherimoya 100/180", precio: 300,  imag: "../imagenes/lima cherimoya.png"},
+    { id: 3, insumos: "Gel color OPI", precio: 950, imag: "../imagenes/opicolor3.png"},
+    { id: 4, insumos: "Gel color OPI", precio: 950,  imag: "../imagenes/opicolor2.png"},
+    { id: 5, insumos: "Gel color OPI", precio: 950, imag: "../imagenes/opicolor1.png"},
+    { id: 6, insumos: "Top Coat Cherimoya 15ml", precio: 1150,  imag: "../imagenes/cherimoya top.webp"},
+    { id: 7, insumos: "Nail prep Nails Show 10ml", precio: 650, imag: "../imagenes/nails_prep.png"},
+    { id: 8, insumos: "Base Coat Cherimoya 15ml", precio: 1100,  imag: "../imagenes/cherimoya base.jpg"},
+    { id: 9, insumos: "Buffer OPI", precio: 250, imag: "../imagenes/buffer opi.jpg" }
+];
+
+function guardarProductosLS(productos){
+    localStorage.setItem("productos", JSON.stringify(productos));
+}
+
+function cargarProductosLS(){
+    return JSON.parse(localStorage.getItem("productos"));
+}
