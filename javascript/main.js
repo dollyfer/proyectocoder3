@@ -21,3 +21,8 @@ function cargarProductos(){
 guardarProductosLS(productos);
 cargarProductos();
 actualizarBotonCarrito();
+const usuario={
+  edad : prompt("ingrese su edad")
+}
+const permiso =(usuario.edad >=18)? true : false
+permiso ? alert("usted es mayor, siga con la compra") : alert ("usted es menor necesita el permiso de un adulto")
