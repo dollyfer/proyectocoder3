@@ -78,3 +78,11 @@ function cargarProductosSeleccionados() {
 }
 
 document.getElementById("eliminar_carrito").addEventListener("click", eliminarCarrito);
+
+const btn = document.querySelector("#eliminar_carrito");
+btn.addEventListener("click", () => {
+  Swal.fire({
+    icon: 'error',
+    title: 'Usted ha eliminado su carrito',
+  })
+}) 

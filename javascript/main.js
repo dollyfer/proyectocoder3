@@ -1,4 +1,14 @@
 
+Swal.fire({
+  title: 'Bienvenido a la tienda de Nails With Do',
+  text: 'Los mejores productos y precios',
+  imageUrl: 'https://unsplash.it/400/200',
+  imageWidth: 400,
+  imageHeight: 200,
+  imageAlt: 'Custom image',
+})
+
+
 
 function cargarProductos(){
     let productos2= cargarProductosLS();
@@ -21,8 +31,6 @@ function cargarProductos(){
 guardarProductosLS(productos);
 cargarProductos();
 actualizarBotonCarrito();
-const usuario={
-  edad : prompt("ingrese su edad")
-}
-const permiso =(usuario.edad >=18)? true : false
-permiso ? alert("usted es mayor, siga con la compra") : alert ("usted es menor necesita el permiso de un adulto")
+
+
+
