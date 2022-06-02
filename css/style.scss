@@ -476,3 +476,13 @@ width: 50px;
 .margentrash{
   margin-left: 10px;
 }
+#productos{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card{
+  width: 18rem;
+  height: 445px;
+}
