@@ -1,4 +1,3 @@
-
 Swal.fire({
   title: 'Bienvenido a la tienda de Nails With Do',
   text: 'Los mejores productos y precios',
@@ -9,10 +8,24 @@ Swal.fire({
 })
 
 
-
-
-
 const resultado = document.getElementById("productos");
+
+const creacionProductos = () => {
+  listaProductos.forEach((product) => {
+  let nuevo = document.createElement("div");
+    nuevo.classList.add("card");
+    nuevo.innerHTML =
+    `<img src= "${product.imag}" class="card-img-top">
+    <div class = "card-body ">
+    <h5 class= card-title>  ${product.insumos}</h5>
+    <p class= card-text>$${product.precio}</p>
+    <a  class="btn btn-primary" onclick="agregarAlCarrito(${product.id});">COMPRAR</a>`;
+    resultado.appendChild(nuevo); 
+ });
+}
+
+/*
+
 fetch('/javascript/productos.json')
 .then((response) => response.json())
 .then ((data)=> 
@@ -30,9 +43,12 @@ data.forEach(productos=> {
     
     
 }))
-guardarProductosLS(productos);
 
+*/
+guardarProductosLS(listaProductos);
 actualizarBotonCarrito();
+creacionProductos();
+
 
 
 
