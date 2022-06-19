@@ -15,7 +15,7 @@ const creacionProductos = () => {
   let nuevo = document.createElement("div");
     nuevo.classList.add("card");
     nuevo.innerHTML =
-    `<img src= "${product.imag}" class="card-img-top">
+    `<img src= "${product.imag}" class="card-img-top imagencard">
     <div class = "card-body ">
     <h5 class= card-title>  ${product.insumos}</h5>
     <p class= card-text>$${product.precio}</p>
