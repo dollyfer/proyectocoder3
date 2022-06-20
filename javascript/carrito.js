@@ -1,3 +1,4 @@
+
 function buscarProducto(id) {
     let productos = cargarProductosLS();
 
@@ -31,10 +32,12 @@ function actualizarBotonCarrito() {
     let contenido = `<button type="button" class="btn btn-secondary position-relative" style="width: 54px;"><img src="../imagenes/cart4.svg" alt="Carrito" width="32"><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">${productos_carrito.length}</span></button>`;
     document.getElementById("boton_carrito").innerHTML = contenido;
 }
-function eliminarProducto(id) {
-    let productos_carrito = cargarProductosCarrito();
-    let productos_carrito_actualizado = productos_carrito.filter(x => x.id != id);
-    localStorage.setItem("carrito", JSON.stringify(productos_carrito_actualizado));
+function eliminarProducto(indice) {
+
+    cart = JSON.parse(window.localStorage.getItem(`carrito`))
+    cart.splice(indice,1);
+    localStorage.setItem("carrito", JSON.stringify(cart));
+
     actualizarBotonCarrito();
     cargarProductosSeleccionados();
 }
@@ -57,6 +60,19 @@ function cargarProductosSeleccionados() {
             <th>&nbsp;</th>
             </tr>`;
 
+            
+            productos.forEach((producto, indice) => {
+                contenido += `<tr>
+                <td>${producto.insumos}</td>
+                <td class='text-end'><b>$${producto.precio}</b></td>
+                <td class='text-end'><button class='btn btn-danger' onclick='eliminarProducto(${indice});'>[ X ]</button></td>
+                </tr>`;
+                total += producto.precio;
+            });
+
+            
+
+            /*
             for (const producto of productos) {
                 contenido += `<tr>
                 <td>${producto.insumos}</td>
@@ -65,6 +81,7 @@ function cargarProductosSeleccionados() {
                 </tr>`;
                 total += producto.precio;
             }
+            */
 
             contenido += `<tr class="bg-light">
             <td>Total a Pagar</td>
