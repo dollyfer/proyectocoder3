@@ -1,3 +1,5 @@
+
+/*creo clase constructora*/
 class productosSeleccionado {
     constructor (id, insumos, precio, imag){
         this.id = id;
